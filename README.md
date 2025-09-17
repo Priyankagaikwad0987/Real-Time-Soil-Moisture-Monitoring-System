@@ -6,7 +6,7 @@ A system to monitor soil moisture levels in real-time and automatically water pl
 ## Features
 - Measures soil moisture using a sensor
 - Automatic water pump control based on moisture threshold
-- Real-time dashboard monitoring (optional)
+- Real-time dashboard monitoring 
 
 ## Hardware Components
 - Arduino Uno / ESP32
@@ -19,7 +19,10 @@ A system to monitor soil moisture levels in real-time and automatically water pl
 - Optional: React dashboard for monitoring
 
 ## Circuit Diagram
-![Circuit](Circuit/circuit-diagram.png)
+real-time-soil-moisture/
+ ![circuit-diagram](https://github.com/user-attachments/assets/9914b105-9b47-4d6b-8c44-d0489a8488b9)
+
+
 
 ## How to Run
 1. Upload `Arduino/soil-moisture.ino` to Arduino IDE
