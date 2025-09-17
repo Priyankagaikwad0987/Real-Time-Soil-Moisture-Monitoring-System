@@ -22,7 +22,8 @@ A system to monitor soil moisture levels in real-time and automatically water pl
 real-time-soil-moisture/
  ![circuit-diagram](https://github.com/user-attachments/assets/9914b105-9b47-4d6b-8c44-d0489a8488b9)
 
-
+## 🎞️ Live Demo
+https://www.youtube.com/shorts/yjbRILcDICM
 
 ## How to Run
 1. Upload `Arduino/soil-moisture.ino` to Arduino IDE
