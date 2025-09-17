@@ -1,0 +1,22 @@
+#define MOISTURE_SENSOR A0
+#define WATER_PUMP 3
+#define THRESHOLD 500   // Adjust based on soil
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(WATER_PUMP, OUTPUT);
+  digitalWrite(WATER_PUMP, LOW);
+}
+
+void loop() {
+  int moisture = analogRead(MOISTURE_SENSOR);
+  Serial.print("Soil Moisture: ");
+  Serial.println(moisture);
+
+  if(moisture < THRESHOLD) {
+    digitalWrite(WATER_PUMP, HIGH);  // Turn on pump
+  } else {
+    digitalWrite(WATER_PUMP, LOW);   // Turn off pump
+  }
+  delay(2000); // 2 seconds delay
+}
